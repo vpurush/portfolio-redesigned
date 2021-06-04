@@ -1,0 +1,987 @@
+{
+  "characters": [
+    {
+      "name": "karna",
+      "displayName": "Karna",
+      "otherNames": [],
+      "descriptions": ["warlord", "abandoned at birth"]
+    },
+    {
+      "name": "gandhari",
+      "displayName": "Gandhari",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "gatotkacha",
+      "displayName": "Gatotkacha",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "shaktri",
+      "displayName": "Shaktri",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "parasara",
+      "displayName": "Parasara",
+      "otherNames": [],
+      "descriptions": ["performed yagna to kill all rakshasas"]
+    },
+    {
+      "name": "drupada",
+      "displayName": "Drupada",
+      "otherNames": [],
+      "descriptions": ["prayed to shiva"]
+    },
+    {
+      "name": "bali",
+      "displayName": "Bali",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "dhaumya",
+      "displayName": "Dhaumya",
+      "otherNames": [],
+      "descriptions": ["sage", "safe in forest who advises Pandavas"]
+    },
+    {
+      "name": "bhanumathi",
+      "displayName": "Bhanumathi",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "draupadi",
+      "displayName": "Draupadi",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "surasena",
+      "displayName": "Surasena",
+      "otherNames": [],
+      "descriptions": ["gave Kunti away to Kuntiboja"]
+    },
+    {
+      "name": "vasudeva",
+      "displayName": "Vasudeva",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "kansa",
+      "displayName": "Kansa",
+      "otherNames": [],
+      "descriptions": ["self declared dictator of Mathura"]
+    },
+    {
+      "name": "devaki",
+      "displayName": "Devaki",
+      "otherNames": [],
+      "descriptions": ["her eighth child would kill Kansa"]
+    },
+    {
+      "name": "rohini",
+      "displayName": "Rohini",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "balarama",
+      "displayName": "Balarama",
+      "otherNames": [],
+      "descriptions": [
+        "seventh child of Vasudeva and Devaki",
+        "incardnation of Aadi anantasesha"
+      ]
+    },
+    {
+      "name": "nanda",
+      "displayName": "Nanda",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "yashoda",
+      "displayName": "Yashoda",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "vishwakarma",
+      "displayName": "Vishwakarma",
+      "otherNames": [],
+      "descriptions": ["Architect of Devas"]
+    },
+    {
+      "name": "maya",
+      "displayName": "Maya",
+      "otherNames": [],
+      "descriptions": ["Architect of Devas"]
+    },
+    {
+      "name": "ulupi",
+      "displayName": "Ulupi",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "iravan",
+      "displayName": "Iravan",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "chitrangada",
+      "displayName": "Chitrangada",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "babruvahana",
+      "displayName": "Babruvahana",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "dwaraka",
+      "displayName": "Dwaraka",
+      "otherNames": ["Dwaravati"],
+      "descriptions": []
+    },
+    {
+      "name": "subhadhra",
+      "displayName": "Subhadra",
+      "otherNames": [],
+      "descriptions": ["Eloped with Arjuna"]
+    },
+    {
+      "name": "abhimanyu",
+      "displayName": "Abhimanyu",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "srikandhi",
+      "displayName": "Srikandhi",
+      "otherNames": [],
+      "descriptions": ["Killed Bhishma"]
+    },
+    {
+      "name": "shakuni",
+      "displayName": "Shakuni",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "vaishrava",
+      "displayName": "Vaishrava",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "lomesha",
+      "displayName": "Lomesha",
+      "otherNames": [],
+      "descriptions": ["Sage"]
+    },
+    {
+      "name": "lakshmanan",
+      "displayName": "Lakshmanan",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "lakshmani",
+      "displayName": "Lakshmani",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "samba",
+      "displayName": "Samba",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "hanuman",
+      "displayName": "Hanuman",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "savitri",
+      "displayName": "Savitri",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "satyavan",
+      "displayName": "Satyavan",
+      "otherNames": [],
+      "descriptions": ["Woodcutter"]
+    },
+    {
+      "name": "parasurama",
+      "displayName": "Parasurama",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "amba",
+      "displayName": "Amba",
+      "otherNames": ["Shikhandi"],
+      "descriptions": ["in household of Drupada"]
+    },
+    {
+      "name": "vidura",
+      "displayName": "Vidura",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "kunti",
+      "displayName": "Kunti",
+      "otherNames": ["Pritha"],
+      "descriptions": ["Pritha of Mathura"]
+    },
+    {
+      "name": "madri",
+      "displayName": "Madri",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "drona",
+      "displayName": "Drona",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "ashwattahma",
+      "displayName": "Ashwattahma",
+      "otherNames": ["Ashwatama"],
+      "descriptions": []
+    },
+    {
+      "name": "kripa",
+      "displayName": "Kripa",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "vishaparva",
+      "displayName": "Vishaparva",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "sarmishtha",
+      "displayName": "Sarmishtha",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "shukracharya",
+      "displayName": "Shukracharya",
+      "otherNames": [],
+      "descriptions": ["Guru of Asuras"]
+    },
+    {
+      "name": "devayani",
+      "displayName": "Devayani",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "yayati",
+      "displayName": "Yayati",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "yadu",
+      "displayName": "Yadu",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "puru",
+      "displayName": "Puru",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "yadavas",
+      "displayName": "Yadavas",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "madhavi",
+      "displayName": "Madhavi",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "pratipa",
+      "displayName": "Pratipa",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "shantanu",
+      "displayName": "Shantanu",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "vyasa",
+      "displayName": "Vyasa",
+      "otherNames": ["Krisha Dwaipayana"],
+      "descriptions": []
+    },
+    {
+      "name": "ambalika",
+      "displayName": "Ambalika",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "ambika",
+      "displayName": "Ambika",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "chitrangadha",
+      "displayName": "Chitrangadha",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "vichitravarya",
+      "displayName": "Vichitravarya",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "bhima",
+      "displayName": "Bhima",
+      "otherNames": [],
+      "descriptions": ["A pandava"]
+    },
+    {
+      "name": "arjuna",
+      "displayName": "Arjuna",
+      "otherNames": [],
+      "descriptions": ["A pandava"]
+    },
+    {
+      "name": "nakula",
+      "displayName": "Nakula",
+      "otherNames": [],
+      "descriptions": ["A pandava"]
+    },
+    {
+      "name": "sahadeva",
+      "displayName": "Sahadeva",
+      "otherNames": [],
+      "descriptions": ["A pandava"]
+    },
+    {
+      "name": "yudhishtira",
+      "displayName": "Yudhishtira",
+      "otherNames": [],
+      "descriptions": ["A pandava"]
+    },
+    {
+      "name": "pandu",
+      "displayName": "Pandu",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "sarmistha",
+      "displayName": "Sarmistha",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "satyavathi",
+      "displayName": "Satyavathi",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "duryodhana",
+      "displayName": "Duryodhana",
+      "otherNames": [],
+      "descriptions": ["A kaurava"]
+    },
+    {
+      "name": "krishna",
+      "displayName": "Krishna",
+      "otherNames": [],
+      "descriptions": ["The charioteer"]
+    },
+    {
+      "name": "vayu",
+      "displayName": "Vayu",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "pulastya",
+      "displayName": "Pulastya",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "kripi",
+      "displayName": "Kripi",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "vasishtha",
+      "displayName": "Vasishtha",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "jarasandha",
+      "displayName": "Jarasandha",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "dhrishtadyumna",
+      "displayName": "Dhrishtadyumna",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "surya",
+      "displayName": "Surya",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "adiratha",
+      "displayName": "Adiratha",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "dhritarastra",
+      "displayName": "Dhritarastra",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "bharadvaja",
+      "displayName": "Bharadvaja",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "hidimbi",
+      "displayName": "hidimbi",
+      "otherNames": [],
+      "descriptions": []
+    },
+    {
+      "name": "ashwapati",
+      "displayName": "Ashwapati",
+      "otherNames": [],
+      "descriptions": []
+    }
+  ],
+  "relationships": [
+    {
+      "fromCharacter": "parasurama",
+      "toCharacter": "bhima",
+      "relationship": [{ "name": "guru" }]
+    },
+    {
+      "fromCharacter": "vidura",
+      "toCharacter": "vyasa",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "kunti",
+      "toCharacter": "pandu",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "gandhari",
+      "toCharacter": "dhritarastra",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "madri",
+      "toCharacter": "pandu",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "drona",
+      "toCharacter": "kripi",
+      "relationship": [{ "name": "husband" }]
+    },
+    {
+      "fromCharacter": "drona",
+      "toCharacter": "bharadvaja",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "ashwattahma",
+      "toCharacter": "drona",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "ashwattahma",
+      "toCharacter": "kripi",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "drupada",
+      "toCharacter": "drona",
+      "relationship": [{ "name": "friend" }]
+    },
+    {
+      "fromCharacter": "parasurama",
+      "toCharacter": "drona",
+      "relationship": [{ "name": "guru" }]
+    },
+    {
+      "fromCharacter": "ashwattahma",
+      "toCharacter": "drona",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "kripa",
+      "toCharacter": "shantanu",
+      "relationship": [{ "name": "foster-father" }]
+    },
+    {
+      "fromCharacter": "kripi",
+      "toCharacter": "shantanu",
+      "relationship": [{ "name": "foster-father" }]
+    },
+    {
+      "fromCharacter": "sarmistha",
+      "toCharacter": "vishaparva",
+      "relationship": [{ "name": "daughter" }]
+    },
+    {
+      "fromCharacter": "devayani",
+      "toCharacter": "shukracharya",
+      "relationship": [{ "name": "daughter" }]
+    },
+    {
+      "fromCharacter": "yayati",
+      "toCharacter": "sarmistha",
+      "relationship": [{ "name": "husband" }]
+    },
+    {
+      "fromCharacter": "yayati",
+      "toCharacter": "devayani",
+      "relationship": [{ "name": "husband" }]
+    },
+    {
+      "fromCharacter": "yadu",
+      "toCharacter": "yayati",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "puru",
+      "toCharacter": "yayati",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "madhavi",
+      "toCharacter": "yayati",
+      "relationship": [{ "name": "daughter" }]
+    },
+    {
+      "fromCharacter": "pratipa",
+      "toCharacter": "shantanu",
+      "relationship": [{ "name": "father" }]
+    },
+    {
+      "fromCharacter": "vyasa",
+      "toCharacter": "satyavathi",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "vyasa",
+      "toCharacter": "parasara",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "chitrangadha",
+      "toCharacter": "shantanu",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "vichitravarya",
+      "toCharacter": "shantanu",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "chitrangadha",
+      "toCharacter": "satyavathi",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "vichitravarya",
+      "toCharacter": "satyavathi",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "chitrangadha",
+      "toCharacter": "shantanu",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "karna",
+      "toCharacter": "adiratha",
+      "relationship": [{ "name": "foster-father" }]
+    },
+    {
+      "fromCharacter": "karna",
+      "toCharacter": "duryodhana",
+      "relationship": [{ "name": "friend" }]
+    },
+    {
+      "fromCharacter": "karna",
+      "toCharacter": "kunti",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "karna",
+      "toCharacter": "surya",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "gandhari",
+      "toCharacter": "duryodhana",
+      "relationship": [{ "name": "mother" }]
+    },
+    {
+      "fromCharacter": "gandhari",
+      "toCharacter": "dhritarastra",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "gatotkacha",
+      "toCharacter": "bhima",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "gatotkacha",
+      "toCharacter": "hidimbi",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "shaktri",
+      "toCharacter": "vasishtha",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "parasara",
+      "toCharacter": "shaktri",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "parasara",
+      "toCharacter": "vyasa",
+      "relationship": [{ "name": "father" }]
+    },
+    {
+      "fromCharacter": "drupada",
+      "toCharacter": "draupadi",
+      "relationship": [{ "name": "father" }]
+    },
+    {
+      "fromCharacter": "drupada",
+      "toCharacter": "dhrishtadyumna",
+      "relationship": [{ "name": "father" }]
+    },
+    {
+      "fromCharacter": "drupada",
+      "toCharacter": "amba",
+      "relationship": [{ "name": "father" }]
+    },
+    {
+      "fromCharacter": "bhanumathi",
+      "toCharacter": "duryodhana",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "nakula",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "sahadeva",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "bhima",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "yudhishtira",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "surasena",
+      "toCharacter": "kunti",
+      "relationship": [{ "name": "father" }]
+    },
+    {
+      "fromCharacter": "vasudeva",
+      "toCharacter": "kunti",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "vasudeva",
+      "toCharacter": "krishna",
+      "relationship": [{ "name": "father" }]
+    },
+    {
+      "fromCharacter": "kansa",
+      "toCharacter": "surasena",
+      "relationship": [{ "name": "nephew" }]
+    },
+    {
+      "fromCharacter": "karna",
+      "toCharacter": "jarasandha",
+      "relationship": [{ "name": "son-in-law" }]
+    },
+    {
+      "fromCharacter": "devaki",
+      "toCharacter": "vasudeva",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "devaki",
+      "toCharacter": "kansa",
+      "relationship": [{ "name": "sister" }]
+    },
+    {
+      "fromCharacter": "rohini",
+      "toCharacter": "vasudeva",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "balarama",
+      "toCharacter": "vasudeva",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "balarama",
+      "toCharacter": "devaki",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "nanda",
+      "toCharacter": "rohini",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "yashoda",
+      "toCharacter": "nanda",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "iravan",
+      "toCharacter": "ulupi",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "iravan",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "chitrangada",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "babruvahana",
+      "toCharacter": "chitrangada",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "babruvahana",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "balarama",
+      "toCharacter": "krishna",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "subhadhra",
+      "toCharacter": "krishna",
+      "relationship": [{ "name": "sister" }]
+    },
+    {
+      "fromCharacter": "subhadhra",
+      "toCharacter": "balarama",
+      "relationship": [{ "name": "sister" }]
+    },
+    {
+      "fromCharacter": "abhimanyu",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "abhimanyu",
+      "toCharacter": "subhadhra",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "srikandhi",
+      "toCharacter": "draupadi",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "srikandhi",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "shakuni",
+      "toCharacter": "gandhari",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "vaishrava",
+      "toCharacter": "pulastya",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "lakshmanan",
+      "toCharacter": "duryodhana",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "lakshmani",
+      "toCharacter": "duryodhana",
+      "relationship": [{ "name": "daughter" }]
+    },
+    {
+      "fromCharacter": "samba",
+      "toCharacter": "krishna",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "hanuman",
+      "toCharacter": "vayu",
+      "relationship": [{ "name": "son" }]
+    },
+    {
+      "fromCharacter": "hanuman",
+      "toCharacter": "bhima",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "savitri",
+      "toCharacter": "ashwapati",
+      "relationship": [{ "name": "daughter" }]
+    },
+    {
+      "fromCharacter": "yudhishtira",
+      "toCharacter": "bhima",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "yudhishtira",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "yudhishtira",
+      "toCharacter": "nakula",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "yudhishtira",
+      "toCharacter": "sahadeva",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "bhima",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "bhima",
+      "toCharacter": "nakula",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "bhima",
+      "toCharacter": "sahadeva",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "arjuna",
+      "toCharacter": "nakula",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "arjuna",
+      "toCharacter": "sahadeva",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "nakula",
+      "toCharacter": "sahadeva",
+      "relationship": [{ "name": "brother" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "arjuna",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "yudhishtira",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "bhima",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "nakula",
+      "relationship": [{ "name": "wife" }]
+    },
+    {
+      "fromCharacter": "draupadi",
+      "toCharacter": "sahadeva",
+      "relationship": [{ "name": "wife" }]
+    }
+  ]
+}

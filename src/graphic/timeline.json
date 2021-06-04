@@ -1,0 +1,37 @@
+[
+    {
+        "label": "Takes his first breath",
+        "tickLabel": "1987",
+        "value": 1987
+    },
+    {
+        "label": "Finishes high school",
+        "tickLabel": "2004",
+        "value": 2004
+    },
+    {
+        "label": "Graduates",
+        "tickLabel": "Jun, 2008",
+        "value": 2008
+    },
+    {
+        "label": "Starts his first job at Cognizant",
+        "tickLabel": "Aug, 2008",
+        "value": 2008.9
+    },
+    {
+        "label": "Enrolls in master's degree",
+        "tickLabel": "Jan, 2018",
+        "value": 2018
+    },
+    {
+        "label": "Finishes his post graduation",
+        "tickLabel": "Dec, 2019",
+        "value": 2019
+    },
+    {
+        "label": "Leaves Cognizant to join Mudbath",
+        "tickLabel": "Mar, 2020",
+        "value": 2020.9
+    }
+]
