@@ -1,15 +1,17 @@
 import React from "react";
-import { Grommet } from "grommet";
 import { ThemeProvider } from "styled-components";
-import { theme, StyledComponentsTheme } from "../theme";
+import { ThemeProvider as FluentThemeProvider } from "@fluentui/react";
+import { initializeIcons } from "@fluentui/react/lib/Icons";
+import { fluentUITheme, StyledComponentsTheme } from "../theme";
 
+initializeIcons();
 type LayoutProps = React.PropsWithChildren<{}>;
 export const Layout = (props: LayoutProps) => {
   return (
-    <Grommet theme={theme}>
+    <FluentThemeProvider theme={fluentUITheme}>
       <ThemeProvider theme={StyledComponentsTheme}>
         {props.children}
       </ThemeProvider>
-    </Grommet>
+    </FluentThemeProvider>
   );
 };
