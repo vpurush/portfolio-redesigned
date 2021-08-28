@@ -17,6 +17,8 @@ import {
   Redirect,
 } from "react-router-dom";
 import { history, store } from "../redux/note/store";
+import { NotebookList } from "../components/notebook-list";
+import { fetchNotebooksThunk } from "../redux/note/thunk";
 
 export const Note = () => {
   const commandBarItems: ICommandBarItemProps[] = [
@@ -57,7 +59,7 @@ export const Note = () => {
               path="/notebook/:notebook"
               render={() => "Show notebook"}
             />
-            <Route exact path="/notebooks" render={() => "Show notebooks"} />
+            <Route exact path="/notebooks" render={() => <NotebookList />} />
             <Redirect to="/notebooks" />
           </Switch>
         </ConnectedRouter>

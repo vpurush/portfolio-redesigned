@@ -36,7 +36,8 @@
     "gatsby-plugin-less": "^4.6.0",
     "less": "^4.1.0",
     "less-loader": "^7.3.0",
-    "prettier": "2.1.2"
+    "prettier": "2.1.2",
+    "redux-devtools-extension": "^2.13.9"
   },
   "repository": {
     "type": "git",
