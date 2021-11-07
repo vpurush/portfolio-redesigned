@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
 import { Padding } from "styled-components-spacing";
 import { Layout } from "../components/layout";
-import { Provider } from "react-redux";
+import { connect, ConnectedProps, Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import {
   CommandBar,
@@ -16,11 +16,39 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
-import { history, store } from "../redux/note/store";
+import { history, RootState, store, userSlice } from "../redux/note/store";
 import { NotebookList } from "../components/notebook-list";
 import { fetchNotebooksThunk } from "../redux/note/thunk";
+import { initializeNoteDB } from "../db/note";
+import { useState } from "react";
 
-export const Note = () => {
+const connector = connect(
+  (state: RootState) => ({
+    user: state.user,
+  }),
+  dispatch => ({
+    signin: user => dispatch(userSlice.actions.USER_SIGNIN(user)),
+  })
+);
+
+type NoteProps = ConnectedProps<typeof connector>;
+
+export const Note = connector(({ user, signin }: NoteProps) => {
+  const [isDBInitialized, setIsDBInitialized] = useState<boolean>(false);
+  if (!user.isAuthenticated) {
+    signin({
+      isAuthenticated: true,
+      username: "vpurush",
+    } as RootState["user"]);
+  }
+
+  useEffect(() => {
+    if (user.isAuthenticated) {
+      initializeNoteDB(user.username);
+      setIsDBInitialized(true);
+    }
+  }, [user.isAuthenticated]);
+
   const commandBarItems: ICommandBarItemProps[] = [
     {
       key: "new",
@@ -49,23 +77,33 @@ export const Note = () => {
   return (
     <Layout>
       <CommandBar items={[]} farItems={commandBarItems} />
-      <Provider store={store}>
-        <ConnectedRouter history={history}>
-          <Switch>
-            <Route exact path="/add-note" render={() => "Add note"} />
-            <Route exact path="/add-notebook" render={() => "Add notebook"} />
-            <Route
-              exact
-              path="/notebook/:notebook"
-              render={() => "Show notebook"}
-            />
-            <Route exact path="/notebooks" render={() => <NotebookList />} />
-            <Redirect to="/notebooks" />
-          </Switch>
-        </ConnectedRouter>
-      </Provider>
+      <ConnectedRouter history={history}>
+        <Switch>
+          {user.isAuthenticated && isDBInitialized ? (
+            <>
+              <Route exact path="/add-note" render={() => "Add note"} />
+              <Route exact path="/add-notebook" render={() => "Add notebook"} />
+              <Route
+                exact
+                path="/notebook/:notebook"
+                render={() => "Show notebook"}
+              />
+              <Route exact path="/notebooks" render={() => <NotebookList />} />
+              <Redirect to="/notebooks" />
+            </>
+          ) : (
+            <div>Unauthenticated</div>
+          )}
+        </Switch>
+      </ConnectedRouter>
     </Layout>
   );
-};
+});
 
-export default Note;
+export default () => {
+  return (
+    <Provider store={store}>
+      <Note />
+    </Provider>
+  );
+};

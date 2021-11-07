@@ -5,10 +5,7 @@ import { dispatch } from "d3";
 import { fetchNotebooksThunk } from "../redux/note/thunk";
 import { notebooksSlice, RootState } from "../redux/note/store";
 import { useEffect } from "react";
-
-const onRenderNotebook = ({ name }) => {
-  return <span>{name}</span>;
-};
+import { NotebookListItem } from "./notebook-list-item";
 
 const connector = connect(
   (state: RootState) => ({
@@ -31,13 +28,19 @@ const UnConnectedNotebookList = ({
     loadNotebookList();
   }, []);
   return (
-    <List
-      items={items}
-      //   getItemCountForPage={getItemCountForPage}
-      //   getPageHeight={getPageHeight}
-      renderedWindowsAhead={4}
-      onRenderCell={onRenderNotebook}
-    />
+    // <List
+    //   items={items}
+    //   //   getItemCountForPage={getItemCountForPage}
+    //   //   getPageHeight={getPageHeight}
+
+    //   renderedWindowsAhead={4}
+    //   onRenderCell={NotebookListItem}
+    // />
+    <div>
+      {items.map(item => (
+        <NotebookListItem name={item.name} notebookId={item._id} />
+      ))}
+    </div>
   );
 };
 export const NotebookList = connector(UnConnectedNotebookList);

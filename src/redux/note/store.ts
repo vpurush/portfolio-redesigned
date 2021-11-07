@@ -9,6 +9,7 @@ import {
 import { connectRouter } from "connected-react-router";
 import { createBrowserHistory } from "history";
 import { composeWithDevTools } from "redux-devtools-extension";
+import { NotebookType } from "../../db/types/note";
 import { fetchNotebooksThunk } from "./thunk";
 
 export const history = createBrowserHistory({ basename: "/note" });
@@ -16,30 +17,10 @@ export const history = createBrowserHistory({ basename: "/note" });
 export const notebooksSlice = createSlice({
   name: "notebooks",
   initialState: {
-    value: [],
+    value: [] as PouchDB.Core.ExistingDocument<NotebookType>[],
     status: "",
   },
-  reducers: {
-    NOTEBOOKS_FETCH_SUCCESS: (state, action: PayloadAction<any[]>) => {
-      return {
-        ...state,
-        value: action.payload,
-        status: "SUCCESS",
-      };
-    },
-    // NOTEBOOKS_FETCH: (state, action: PayloadAction<any[]>) => {
-    //   return {
-    //     ...state,
-    //     status: "PENDING",
-    //   };
-    // },
-    NOTEBOOKS_FETCH_FAILED: (state, action: PayloadAction<any[]>) => {
-      return {
-        ...state,
-        status: "PENDING",
-      };
-    },
-  },
+  reducers: {},
   extraReducers: builder => {
     builder.addCase(fetchNotebooksThunk.pending, (state, action) => {
       return {
@@ -63,12 +44,40 @@ export const notebooksSlice = createSlice({
   },
 });
 
+export const userSlice = createSlice({
+  name: "user",
+  initialState: {
+    username: undefined,
+    isAuthenticated: false,
+  },
+  reducers: {
+    USER_SIGNIN: (state, action) => {
+      console.log("USER_SIGNIN", action, {
+        ...state,
+        ...action.payload,
+      });
+      return {
+        ...state,
+        ...action.payload,
+      };
+    },
+    USER_SIGNOUT: (state, action) => {
+      return {
+        ...state,
+        username: undefined,
+        isAuthenticated: false,
+      };
+    },
+  },
+});
+
 export const store = configureStore({
   devTools: true,
   // middleware: getDefaultMiddleware => getDefaultMiddleware(),
   reducer: {
     router: connectRouter(history),
     notebooks: notebooksSlice.reducer,
+    user: userSlice.reducer,
   },
 });
 
