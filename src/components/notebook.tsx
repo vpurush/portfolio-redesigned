@@ -2,31 +2,31 @@ import { List } from "@fluentui/react/lib/List";
 import { connect, ConnectedProps, ConnectedComponent } from "react-redux";
 import React from "react";
 import { dispatch } from "d3";
-import { fetchNotebooksThunk } from "../redux/note/thunk";
+import { fetchNotesThunk } from "../redux/note/thunk";
 import { notebooksSlice, RootState } from "../redux/note/store";
 import { useEffect } from "react";
 import { NotebookListItem } from "./notebook-list-item";
 import { NotebookType } from "../db/types/note";
+import { useParams } from "react-router-dom";
 
 const connector = connect(
   (state: RootState) => ({
     items: state.notebooks.value,
   }),
   dispatch => ({
-    loadNotebookList: () => dispatch(fetchNotebooksThunk() as any),
+    loadNoteList: (notebookId: string) =>
+      dispatch(fetchNotesThunk(notebookId) as any),
   })
 );
 
-type NotebookListProps = ConnectedProps<typeof connector>;
+type NotebookProps = ConnectedProps<typeof connector>;
 
 // export const NotebookList: React.FC<NotebookListProps> = connector(
-const DisconnectedNotebookList = ({
-  items,
-  loadNotebookList,
-}: NotebookListProps) => {
+const DisconnectedNotebook = ({ items, loadNoteList }: NotebookProps) => {
+  const { notebookId } = useParams();
   useEffect(() => {
-    console.log("invoke action");
-    loadNotebookList();
+    console.log("invoke action", notebookId);
+    loadNoteList(notebookId);
   }, []);
   return (
     // <List
@@ -38,8 +38,9 @@ const DisconnectedNotebookList = ({
     //   onRenderCell={NotebookListItem}
     // />
     <div>
-      {items.map(item => (
+      {items.map((item, i) => (
         <NotebookListItem
+          key={i}
           name={(item as NotebookType).name}
           notebookId={item._id}
         />
@@ -47,4 +48,4 @@ const DisconnectedNotebookList = ({
     </div>
   );
 };
-export const NotebookList = connector(DisconnectedNotebookList);
+export const Notebook = connector(DisconnectedNotebook);

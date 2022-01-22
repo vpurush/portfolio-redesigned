@@ -1,6 +1,14 @@
-export type NoteType = {};
-
-export type NotebookType = {
+type CommonDBEntryType<T> = T & {
   doc_type: string;
-  name: string;
 };
+
+export type NoteType = CommonDBEntryType<{
+  note: string;
+  notebookId: string;
+}>;
+
+export type NotebookType = CommonDBEntryType<{
+  name: string;
+}>;
+
+export type NotebookDBContentType = NotebookType | NoteType;

@@ -27,4 +27,8 @@ export const colorPalette = {
 export const fluentUITheme = createTheme({
   palette: colorPalette,
 });
-export const StyledComponentsTheme = {};
+export const StyledComponentsTheme = {
+  spacing: {
+    small: "2rem",
+  },
+};

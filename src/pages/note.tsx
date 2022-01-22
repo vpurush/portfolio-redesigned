@@ -21,6 +21,7 @@ import { NotebookList } from "../components/notebook-list";
 import { fetchNotebooksThunk } from "../redux/note/thunk";
 import { initializeNoteDB } from "../db/note";
 import { useState } from "react";
+import { Notebook } from "../components/notebook";
 
 const connector = connect(
   (state: RootState) => ({
@@ -85,8 +86,8 @@ export const Note = connector(({ user, signin }: NoteProps) => {
               <Route exact path="/add-notebook" render={() => "Add notebook"} />
               <Route
                 exact
-                path="/notebook/:notebook"
-                render={() => "Show notebook"}
+                path="/notebook/:notebookId"
+                render={() => <Notebook />}
               />
               <Route exact path="/notebooks" render={() => <NotebookList />} />
               <Redirect to="/notebooks" />

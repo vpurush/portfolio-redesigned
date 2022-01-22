@@ -9,7 +9,7 @@ import {
 import { connectRouter } from "connected-react-router";
 import { createBrowserHistory } from "history";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { NotebookType } from "../../db/types/note";
+import { NotebookDBContentType } from "../../db/types/note";
 import { fetchNotebooksThunk } from "./thunk";
 
 export const history = createBrowserHistory({ basename: "/note" });
@@ -17,7 +17,7 @@ export const history = createBrowserHistory({ basename: "/note" });
 export const notebooksSlice = createSlice({
   name: "notebooks",
   initialState: {
-    value: [] as PouchDB.Core.ExistingDocument<NotebookType>[],
+    value: [] as PouchDB.Core.ExistingDocument<NotebookDBContentType>[],
     status: "",
   },
   reducers: {},

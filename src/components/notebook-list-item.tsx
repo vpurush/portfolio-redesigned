@@ -11,12 +11,13 @@ import { NotebookType } from "../db/types/note";
 import { Link } from "react-router-dom";
 
 const StyledDocumentCard = styled(DocumentCard)`
-  ${m(4)}
   display: inline-flex;
 `;
 
 const StyledLink = styled(Link)`
+  ${m(4)}
   text-decoration: none;
+  display: inline-block;
 `;
 
 export const NotebookListItem = ({

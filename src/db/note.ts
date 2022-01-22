@@ -1,6 +1,6 @@
 import PouchDB from "pouchdb-browser";
 import PouchDBFind from "pouchdb-find";
-import { NotebookType } from "./types/note";
+import { NotebookDBContentType, NotebookType, NoteType } from "./types/note";
 
 PouchDB.plugin(PouchDBFind);
 let dbs: Record<string, PouchDB.Database<unknown>> = {};
@@ -38,11 +38,11 @@ const getDb = <T>(dbName: string) => {
 };
 
 export const getNoteDB = () => {
-  return getDb<NotebookType>("note");
+  return getDb<NotebookDBContentType>("note");
 };
 
 export const initializeNoteDB = async (uname: string) => {
-  const db = initializeDB<NotebookType>(uname, "note");
+  const db = initializeDB<NotebookDBContentType>(uname, "note");
   if (db) {
     await db.createIndex({
       index: {
